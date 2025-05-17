@@ -1,9 +1,13 @@
 #include<iostream> 
 #include<conio2.h> 
 using namespace std; 
+void delay(int num){ 
+    for(int counter=1;counter<=num*100000000;counter++) 
+    { 
  
-void delay(int num); 
- 
+    } 
+} 
+
 int main(void) 
 { 
     getch(); 
@@ -17,10 +21,3 @@ int main(void)
     return 0; 
 } 
  
-void delay(int num) 
-{ 
-    for(int counter=1;counter<=num*100000000;counter++) 
-    { 
- 
-    } 
-} 
