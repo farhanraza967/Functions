@@ -7,9 +7,7 @@ void delay(int num){
  
     } 
 } 
-
-int main(void) 
-{ 
+int main(){ 
     getch(); 
     cout<<"Testing void function delay()\n"; 
     delay(1); 
