@@ -1,7 +1,7 @@
 #include <iostream>
 #include <ctime>
 using namespace std;
-void delayTwoSeconds() {
+void delayTwoSeconds(){
     clock_t start = clock();
     clock_t delay = 2 * CLOCKS_PER_SEC;
     while (clock() - start < delay) {
